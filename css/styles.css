@@ -6,12 +6,20 @@ hr {
   border-style: dotted none none;
   border-color: #EEEEEE;
   border-width: 5px;
-  width: 5%;
+  width: 20%;
 
 }
 
 img {
   height: 200px;
+  border: solid white 2px;
+  border-radius: 100%;
+  transition: 0.25s;
+}
+
+img:hover{
+  height: 250px;
+  transition: 0.25s;
 }
 
 h1, h3, p {
@@ -20,4 +28,9 @@ h1, h3, p {
 
 ul {
   color: #EEEEEE;
+}
+
+.top-container{
+  display: flex;
+  justify-content: center;
 }
